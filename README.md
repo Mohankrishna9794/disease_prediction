@@ -23,17 +23,17 @@ CSV Files: The dataset containing symptoms and corresponding diseases is stored 
 Setup & Installation:
 Follow these steps to set up and run the project on your local machine:
 1. Prerequisites
-> Ensure you have Python installed (preferably Python 3.8 or higher).
-> Install the required Python libraries using pip.
+   Ensure you have Python installed (preferably Python 3.8 or higher).
+   Install the required Python libraries using pip.
 
 2. Install Required Libraries
-> Open a terminal or command prompt and run the following commands:
-> pip install numpy pandas scikit-learn tk
+  Open a terminal or command prompt and run the following commands:
+  pip install numpy pandas scikit-learn tk
 
 3. Download the Dataset
   1. The project uses two CSV files: 
-     > Training.csv
-     > Testing.csv
+      Training.csv
+      Testing.csv
   2. Update the file paths in the code if necessary:
      Line No. 50:
      df = pd.read_csv(r"C:\Users\LENOVO\OneDrive\Documents\Training.csv")
