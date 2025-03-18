@@ -35,11 +35,11 @@ Follow these steps to set up and run the project on your local machine:
      > Training.csv
      > Testing.csv
   2. Update the file paths in the code if necessary:
-    Line No. 50:
-    df = pd.read_csv(r"C:\Users\LENOVO\OneDrive\Documents\Training.csv")
-    Line No. 71:
-    tr = pd.read_csv(r"C:\Users\LENOVO\OneDrive\Documents\ Training.csv")
-    Line No. 351:
-    tr=pd.read_csv(r" C:\Users\LENOVO\OneDrive\Documents\ Testing.csv")
+     Line No. 50:
+     df = pd.read_csv(r"C:\Users\LENOVO\OneDrive\Documents\Training.csv")
+     Line No. 71:
+     tr = pd.read_csv(r"C:\Users\LENOVO\OneDrive\Documents\ Training.csv")
+     Line No. 351:
+     tr=pd.read_csv(r" C:\Users\LENOVO\OneDrive\Documents\ Testing.csv")
 4. Save it as disease_prediction.py
 5. Run the Project: disease_prediction.py
