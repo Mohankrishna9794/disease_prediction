@@ -28,18 +28,12 @@ Follow these steps to set up and run the project on your local machine:
 
 2. Install Required Libraries
   Open a terminal or command prompt and run the following commands:
-  pip install numpy pandas scikit-learn tk
+  pip install numpy pandas scikit-learn tkinter
 
 3. Download the Dataset
   1. The project uses two CSV files: 
       Training.csv
       Testing.csv
-  2. Update the file paths in the code if necessary:
-     Line No. 50:
-     df = pd.read_csv(r"C:\Users\LENOVO\OneDrive\Documents\Training.csv")
-     Line No. 71:
-     tr = pd.read_csv(r"C:\Users\LENOVO\OneDrive\Documents\ Training.csv")
-     Line No. 351:
-     tr=pd.read_csv(r" C:\Users\LENOVO\OneDrive\Documents\ Testing.csv")
+ 
 4. Save it as disease_prediction.py
 5. Run the Project: disease_prediction.py
