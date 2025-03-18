@@ -47,7 +47,7 @@ for x in range(0,len(l1)):
     l2.append(0)
 
 # TESTING DATA df -------------------------------------------------------------------------------------
-df=pd.read_csv(r"C:\Users\M.POOJITH GANESH\OneDrive\ドキュメント\Training.csv")
+ df=pd.read_csv(r"Training.csv")
 
 df.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
@@ -68,7 +68,7 @@ np.ravel(y)
 # print(y)
 
 # TRAINING DATA tr --------------------------------------------------------------------------------
-tr=pd.read_csv(r"C:\Users\M.POOJITH GANESH\OneDrive\ドキュメント\Training.csv")
+tr=pd.read_csv(r"Training.csv")
 tr.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
 'Migraine':11,'Cervical spondylosis':12,
@@ -348,7 +348,7 @@ np.ravel(y)
 # print(y)
 
 # TRAINING DATA tr --------------------------------------------------------------------------------
-tr=pd.read_csv(r"C:\Users\krish.charan\OneDrive\Disease\Testing.csv")
+tr=pd.read_csv(r"Testing.csv")
 tr.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
 'Migraine':11,'Cervical spondylosis':12,
