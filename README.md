@@ -46,3 +46,25 @@ Follow these steps to set up and run the project on your local machine:
  
 4. Save it as disease_prediction.py
 5. Run the Project: disease_prediction.py
+
+
+Usage Instructions:
+Once the application is running, follow these steps to interact with the prototype:
+1. Enter Patient Information
+•	In the GUI, enter the name of the patient in the "Name of the Patient" field.
+2. Select Symptoms
+•	Choose up to five symptoms from the dropdown menus:
+o	Symptom 1
+o	Symptom 2
+o	Symptom 3
+o	Symptom 4
+o	Symptom 5
+3. Predict Disease
+•	Click one of the following buttons to predict the disease using the corresponding algorithm:
+o	DecisionTree: Predicts the disease using the Decision Tree algorithm.
+o	RandomForest: Predicts the disease using the Random Forest algorithm.
+o	NaiveBayes: Predicts the disease using the Naive Bayes algorithm.
+4. View Results
+•	The predicted disease (or "Not Found") will be displayed in the corresponding text box below each button.
+5. Reset or Try Again
+•	To make a new prediction, simply select new symptoms and click the prediction buttons again.
